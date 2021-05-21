@@ -101,7 +101,6 @@ pedirJugada (i);
 			System.out.println (quebien + (i-1) +" intentos en la partida nº " + numPartidas);
 		} else {
 			losentimos = "LO SENTIMOS. No has conseguido acertar la combinación en la partida nº ";
-			System.out.println (losentimos + numPartidas);
 		}
 		return true;
 	}
